@@ -1,6 +1,6 @@
 # Pipeline Farmacogenético Containerizado
 
-Pipeline automatizado para análise de variantes farmacogenéticas, integrando arquivos VCF e metadados clínicos do paciente, utilizando Python, Docker e Beagle.
+Pipeline para análise de variantes farmacogenéticas, integrando arquivos VCF e metadados clínicos do paciente, utilizando Python, Docker e Beagle.
 
 ---
 
@@ -14,6 +14,7 @@ Certifique-se de ter as seguintes ferramentas instaladas na sua máquina host:
 
 ## Estrutura do Projeto
 
+```text
 .
 ├── docker-compose.yml
 ├── Dockerfile
@@ -30,24 +31,25 @@ Certifique-se de ter as seguintes ferramentas instaladas na sua máquina host:
     ├── modules/                # Módulos lógicos (preprocessor, annotator, etc.)
     └── utils/                  
         └── logger.py           # Logger simples
-
----
+        
+```
 
 ## Configuração Inicial
 
-1. **Adicione o executável do Beagle:**
-   Baixe a versão compatível do Beagle (arquivo `.jar`) e posicione-o em:
-   external_tools/beagle/beagle.jar
+1. **Configuração de Variáveis de Ambiente:**
+   Crie um arquivo `.env` na raiz do projeto com as configurações necessárias para a execução do pipeline (por exemplo, caminhos ou parâmetros globais).
 
-2. **Insira os dados de entrada:**
-   Coloque o arquivo genômico (`.vcf`) e o JSON de metadados do paciente (`patient.json`) dentro da pasta `data/input/`.
+2. **Dados de Entrada:**
+   O projeto já inclui dados de teste na pasta `data/input/`. Caso deseje analisar novas amostras, basta colocar os novos arquivos VCF e o JSON de metadados do paciente no mesmo diretório `data/input/`.
 
 
 ## Como Fazer o Build
 
 Para construir a imagem Docker do pipeline pela primeira vez (ou sempre que atualizar dependências):
 
-sudo docker compose build
+```bash
+$ sudo docker compose build
+```
 
 *(Nota: Se o seu usuário estiver no grupo `docker`, você pode omitir o `sudo`).*
 
@@ -56,14 +58,14 @@ sudo docker compose build
 
 Para rodar o pipeline para uma amostra específica via linha de comando, utilizando um container temporário (`--rm`):
 
-sudo docker compose run --rm pharmacogenomics-pipeline python src/main.py \
+```bash
+$ sudo docker compose run --rm pharmacogenomics-pipeline python src/main.py \
     --vcf data/input/amostra.vcf \
     --patient data/input/patient.json \
     -o data/output/resultado.json
+```
 
 O resultado processado estará disponível no host em `data/output/resultado.json`.
-
----
 
 ## Nota sobre Escala e Processamento em Lote
 
