@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  pharmacogenomics-pipeline:
+    build: .
+    container_name: pharmaco-pipeline
+    volumes:
+      # Mapeia a pasta de dados locais para dentro do container
+      - ./data:/app/data
+      # Mapeia a pasta de ferramentas externas (contendo o beagle.jar)
+      - ./external_tools:/app/external_tools
+      # Opcional: montar o código fonte para desenvolvimento em tempo real
+      - ./src:/app/src
+    environment:
+      - BEAGLE_JAR=/app/external_tools/beagle/beagle.jar
+    # Comando padrão (pode ser sobrescrito ou ajustado conforme sua necessidade)
+    command: python src/pipeline.py
+    # Se quiser rodar interativamente ou manter o container em espera:
+    # stdin_open: true
+    # tty: true
