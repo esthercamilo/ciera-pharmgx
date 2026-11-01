@@ -1,0 +1,24 @@
+{
+  "gene": "F2",
+  "haplotypes": {
+    "rs1799963 Prothrombin 20210A": "Prothrombin 20210A positive",
+    "rs1799963 reference (G)": "Prothrombin 20210A negative"
+  },
+  "activityValues": {},
+  "diplotypes": [],
+  "namedAlleles": [
+    {
+      "name": "rs1799963 Prothrombin 20210A",
+      "activityValue": null,
+      "functionValue": "Prothrombin 20210A positive",
+      "lookupKey": "Prothrombin 20210A positive"
+    },
+    {
+      "name": "rs1799963 reference (G)",
+      "activityValue": null,
+      "functionValue": "Prothrombin 20210A negative",
+      "lookupKey": "Prothrombin 20210A negative"
+    }
+  ],
+  "version": "2026-07-13-11-40"
+}

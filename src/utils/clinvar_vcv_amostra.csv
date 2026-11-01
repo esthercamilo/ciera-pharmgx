@@ -1,0 +1,1001 @@
+VCV_Accession,Variation_Name,Gene,Condition,Clinical_Significance
+N/A,NM_000097.7(CPOX):c.489_509del (p.Cys164_Val170del),CPOX,"
+                ; 
+              ",N/A
+VCV000000455,N/A,N/A,N/A,N/A
+N/A,NG_007480.1:g.(7267_8082)_(8469_9169)del,BCAM,"
+                ; 
+              ",N/A
+VCV000000441,N/A,N/A,N/A,N/A
+N/A,"APC, 1-BP DEL, 3720T",APC,"
+                ; 
+              ",N/A
+VCV000000838,N/A,N/A,N/A,N/A
+N/A,NM_024782.3(NHEJ1):c.177+1_177+3delinsTT,NHEJ1,"
+                ; 
+              ",N/A
+VCV000000984,N/A,N/A,N/A,N/A
+N/A,NC_000008.11:g.(142876886_142877022)_(142914909_142915045)dup,"LOC106799834, LOC110673972, LOC106799833, CYP11B2, CYP11B1","
+                ; 
+              ",N/A
+VCV000001172,N/A,N/A,N/A,N/A
+N/A,A114N,NIPAL4,"
+                ; 
+              ",N/A
+VCV000001730,N/A,N/A,N/A,N/A
+N/A,NM_000102.4(CYP17A1):c.437-2A>C,CYP17A1,"
+                ; 
+              ",N/A
+VCV000001807,N/A,N/A,N/A,N/A
+N/A,NM_000237.3(LPL):c.-227T>C,LPL,"
+                ; 
+              ",N/A
+VCV000001549,N/A,N/A,N/A,N/A
+N/A,NM_001130969.3(NSMF):c.1132-23_1132-15del,NSMF,"
+                ; 
+              ",N/A
+VCV000002525,N/A,N/A,N/A,N/A
+N/A,"MSH2, DEL 50 CODONS",MSH2,"
+                ; 
+              ",N/A
+VCV000001754,N/A,N/A,N/A,N/A
+N/A,"MSH2, 24-BP INS",MSH2,"
+                ; 
+              ",N/A
+VCV000001765,N/A,N/A,N/A,N/A
+N/A,NG_007955.1:g.7152_7674delins469,CYP17A1,"
+                ; 
+              ",N/A
+VCV000001781,N/A,N/A,N/A,N/A
+N/A,NM_000102.4(CYP17A1):c.436+5G>T,CYP17A1,"
+                ; 
+              ",N/A
+VCV000001790,N/A,N/A,N/A,N/A
+N/A,NM_182961.4(SYNE1):c.24313-2A>G,SYNE1,"
+                ; 
+              ",N/A
+VCV000002335,N/A,N/A,N/A,N/A
+N/A,NC_000009.12:g.12891379_qterdelins[T;NC_000020.11:g.47204889_qterinv],LRRC8A,"
+                ; 
+              ",N/A
+VCV000002374,N/A,N/A,N/A,N/A
+N/A,NM_173076.3(ABCA12):c.(872+1_873-1)_(985+1_986-1)del (p.Ser291Argfs),ABCA12,"
+                ; 
+              ",N/A
+VCV000002864,N/A,N/A,N/A,N/A
+N/A,NM_014319.5(LEMD3):c.1522+1G>A,LEMD3,"
+                ; 
+              ",N/A
+VCV000002760,N/A,N/A,N/A,N/A
+N/A,"LEMD3, 1941+5delG",LEMD3,"
+                ; 
+              ",N/A
+VCV000002756,N/A,N/A,N/A,N/A
+N/A,NM_024077.5(SECISBP2):c.1212+29G>A,SECISBP2,"
+                ; 
+              ",N/A
+VCV000002921,N/A,N/A,N/A,N/A
+N/A,NM_022455.5(NSD1):c.6151+1G>A,NSD1,"
+                ; 
+              ",N/A
+VCV000004138,N/A,N/A,N/A,N/A
+N/A,"BBS2, ASP170FS, TER171",BBS2,"
+                ; 
+              ",N/A
+VCV000004574,N/A,N/A,N/A,N/A
+N/A,"KCNQ1, IVS1",KCNQ1,"
+                ; 
+              ",N/A
+VCV000003139,N/A,N/A,N/A,N/A
+N/A,"BBS2, LEU168FS, TER170",BBS2,"
+                ; 
+              ",N/A
+VCV000004581,N/A,N/A,N/A,N/A
+N/A,NC_000017.11:g.58281401C>T,"LOC106694315, MPO","
+                ; 
+              ",N/A
+VCV000003633,N/A,N/A,N/A,N/A
+N/A,NM_001370497.1(ABCC11):c.3939_3965del (p.Asp1313_Arg1321del),ABCC11,"
+                ; 
+              ",N/A
+VCV000003559,N/A,N/A,N/A,N/A
+N/A,NC_000005.10:g.(?_177131798)_(177300213_)?)del,NSD1,"
+                ; 
+              ",N/A
+VCV000004134,N/A,N/A,N/A,N/A
+N/A,NM_021175.4(HAMP):c.148_150+1del,HAMP,"
+                ; 
+              ",N/A
+VCV000004285,N/A,N/A,N/A,N/A
+N/A,NC_000008.11:g.52623770_52685461del,RB1CC1,"
+                ; 
+              ",N/A
+VCV000003976,N/A,N/A,N/A,N/A
+N/A,nsv1067861,RB1CC1,"
+                ; 
+              ",N/A
+VCV000003977,N/A,N/A,N/A,N/A
+N/A,NM_003738.5(PTCH2):c.3357+5C>T,PTCH2,"
+                ; 
+              ",N/A
+VCV000006146,N/A,N/A,N/A,N/A
+N/A,NM_006492.3(ALX3):c.595-2A>T,ALX3,"
+                ; 
+              ",N/A
+VCV000004642,N/A,N/A,N/A,N/A
+N/A,"ARHGAP26, 52-BP INS",ARHGAP26,"
+                ; 
+              ",N/A
+VCV000005053,N/A,N/A,N/A,N/A
+N/A,"ARHGAP26, 74-BP INS",ARHGAP26,"
+                ; 
+              ",N/A
+VCV000005054,N/A,N/A,N/A,N/A
+N/A,NG_016229.2:g.23486GT[26_43],TLR2,"
+                ; 
+              ",N/A
+VCV000006664,N/A,N/A,N/A,N/A
+N/A,"DNMT3B, LEU656THR",DNMT3B,"
+                ; 
+              ",N/A
+VCV000006737,N/A,N/A,N/A,N/A
+N/A,NM_006416.5(SLC35A1):c.752-157_752-156insCTCA,SLC35A1,"
+                ; 
+              ",N/A
+VCV000004843,N/A,N/A,N/A,N/A
+N/A,"DNMT3B, 1-BP INS, CODON 53",DNMT3B,"
+                ; 
+              ",N/A
+VCV000006739,N/A,N/A,N/A,N/A
+N/A,NC_000004.12:g.(?_86010404)_(86067956_86098523)del,MAPK10,"
+                ; 
+              ",N/A
+VCV000006746,N/A,N/A,N/A,N/A
+N/A,NM_023083.4(CAPN10):c.997+136_998-148dup,CAPN10,"
+                ; 
+              ",N/A
+VCV000005094,N/A,N/A,N/A,N/A
+N/A,NG_008970.1:g.3172_(10967_10971)del,GCM2,"
+                ; 
+              ",N/A
+VCV000006090,N/A,N/A,N/A,N/A
+N/A,NM_003680.4(YARS1):c.458_469del (p.Val153_Val156del),YARS1,"
+                ; 
+              ",N/A
+VCV000006190,N/A,N/A,N/A,N/A
+N/A,"ADCY10, 1438+30T-C",ADCY10,"
+                ; 
+              ",N/A
+VCV000005179,N/A,N/A,N/A,N/A
+N/A,NM_001378743.1(CYLD):c.1950-1_1952del,"CYLD-AS2, CYLD","
+                ; 
+              ",N/A
+VCV000005262,N/A,N/A,N/A,N/A
+N/A,NM_002555.6(SLC22A18):c.864_865ins[NC_000011.10:g.2919738_2919848],SLC22A18,"
+                ; 
+              ",N/A
+VCV000006976,N/A,N/A,N/A,N/A
+N/A,NC_000013.11:g.(20228574_20228587)_(20460616_20460629)del,"LOC132090175, LOC130009319, LOC130009317, LOC126861704, LOC130009316, GJB6, LOC130009318, CRYL1, MIR4499, LOC126861705","
+                ; 
+              ",N/A
+VCV000005548,N/A,N/A,N/A,N/A
+N/A,NC_000005.10:g.(44304226_44304232)_(44357318_44357323)del,FGF10,"
+                ; 
+              ",N/A
+VCV000007530,N/A,N/A,N/A,N/A
+N/A,NR_001566.3(TERC):n.325G>T,"LOC110806306, TERC","
+                ; 
+              ",N/A
+VCV000007328,N/A,N/A,N/A,N/A
+N/A,NM_003865.3(HESX1):c.357+2T>C,HESX1,"
+                ; 
+              ",N/A
+VCV000007698,N/A,N/A,N/A,N/A
+N/A,"BBS2, CYS210FS, TER246",BBS2,"
+                ; 
+              ",N/A
+VCV000004575,N/A,N/A,N/A,N/A
+N/A,"SMARCB1, 19-BP DEL",SMARCB1,"
+                ; 
+              ",N/A
+VCV000008023,N/A,N/A,N/A,N/A
+N/A,NM_000325.6(PITX2):c.412-2A>T,PITX2,"
+                ; 
+              ",N/A
+VCV000008091,N/A,N/A,N/A,N/A
+N/A,NM_002973.4(ATXN2):c.16CAG[27_33] (p.6Gln[27_33]),ATXN2,"
+                ; 
+              ",N/A
+VCV000008114,N/A,N/A,N/A,N/A
+N/A,"JAG1, 1329, T-G, +2",JAG1,"
+                ; 
+              ",N/A
+VCV000007628,N/A,N/A,N/A,N/A
+N/A,"46,XX,t(2;8)(q33.1;q24.3)",SUMO1,"
+                ; 
+              ",N/A
+VCV000007629,N/A,N/A,N/A,N/A
+N/A,NM_001025603.2(RFX5):c.116+5G>A,RFX5,"
+                ; 
+              ",N/A
+VCV000007644,N/A,N/A,N/A,N/A
+N/A,NM_000289.6(PFKM):c.237+1G>T,"PEX12, PFKM","
+                ; 
+              ",N/A
+VCV000007777,N/A,N/A,N/A,N/A
+N/A,NM_000163.5(GHR):c.945+1G>A,GHR,"
+                ; 
+              ",N/A
+VCV000008650,N/A,N/A,N/A,N/A
+N/A,NG_011688.2:g.(209254_?)_(210980_212428)del,GHR,"
+                ; 
+              ",N/A
+VCV000008661,N/A,N/A,N/A,N/A
+N/A,NM_001039.4(SCNN1G):c.1570-1G>A,SCNN1G,"
+                ; 
+              ",N/A
+VCV000008825,N/A,N/A,N/A,N/A
+N/A,NG_007111.1:g.2007_15002del,MSH6,"
+                ; 
+              ",N/A
+VCV000008936,N/A,N/A,N/A,N/A
+N/A,NM_003244.4(TGIF1):c.16+1651C>G,"TGIF1, TGIF","
+                ; 
+              ",N/A
+VCV000006983,N/A,N/A,N/A,N/A
+N/A,"BBS2, THR560ILE",BBS2,"
+                ; 
+              ",N/A
+VCV000004582,N/A,N/A,N/A,N/A
+N/A,NM_199168.4(CXCL12):c.*531G>A,CXCL12,"
+                ; 
+              ",N/A
+VCV000008762,N/A,N/A,N/A,N/A
+N/A,NM_004336.5(BUB1):c.422+1G>A,BUB1,"
+                ; 
+              ",N/A
+VCV000007082,N/A,N/A,N/A,N/A
+N/A,m.2939C>A,"MTRNR2, MT-RNR2","
+                ; 
+              ",N/A
+VCV000009627,N/A,N/A,N/A,N/A
+N/A,L222*,MSH6,"
+                ; 
+              ",N/A
+VCV000008929,N/A,N/A,N/A,N/A
+N/A,"MSH6, 1-BP DEL, 594T",MSH6,"
+                ; 
+              ",N/A
+VCV000008930,N/A,N/A,N/A,N/A
+N/A,"CPT2, 11-BP DUP, NT997",CPT2,"
+                ; 
+              ",N/A
+VCV000008963,N/A,N/A,N/A,N/A
+N/A,NM_018943.3(TUBA8):c.4-21_4-8del,TUBA8,"
+                ; 
+              ",N/A
+VCV000004782,N/A,N/A,N/A,N/A
+N/A,NM_005915.6(MCM6):c.1917+226G>C,MCM6,"
+                ; 
+              ",N/A
+VCV000007687,N/A,N/A,N/A,N/A
+N/A,NM_001491.2(GCNT2):c.-117_*41del,GCNT2,"
+                ; 
+              ",N/A
+VCV000009130,N/A,N/A,N/A,N/A
+N/A,NM_001024630.4(RUNX2):c.231_260dup (p.Ala80_Ala89dup),"RUNX2, LOC109611589","
+                ; 
+              ",N/A
+VCV000009297,N/A,N/A,N/A,N/A
+N/A,"GHRL, 2-BP DEL, CODON 34",GHRL,"
+                ; 
+              ",N/A
+VCV000005064,N/A,N/A,N/A,N/A
+N/A,"PTCH1, 451C-T, PRO-SER",PTCH1,"
+                ; 
+              ",N/A
+VCV000008219,N/A,N/A,N/A,N/A
+N/A,NC_000023.11:g.106033704del,"SERPINA7, TBG","
+                ; 
+              ",N/A
+VCV000009800,N/A,N/A,N/A,N/A
+N/A,NM_000868.4(HTR2C):c.68= (p.Ser23=),HTR2C,"
+                ; 
+              ",N/A
+VCV000009885,N/A,N/A,N/A,N/A
+N/A,NM_002641.4(PIGA):c.1355_1356insAATTGAGATGGATGACTCCAGATTCTATCATTGA (p.Asp452delinsGluIleGluMetAspAspSerArgPheTyrHisTer),PIGA,"
+                ; 
+              ",N/A
+VCV000009966,N/A,N/A,N/A,N/A
+N/A,NM_000240.3(MAOA):c.-1241ACCGGCACCGGCACCAGTACCCGCACCAGT[3_5],MAOA,"
+                ; 
+              ",N/A
+VCV000009968,N/A,N/A,N/A,N/A
+N/A,NM_000256.3(MYBPC3):c.3628-34_3628-10del,MYBPC3,"
+                ; 
+              ",N/A
+VCV000008620,N/A,N/A,N/A,N/A
+N/A,NG_011403.2:g.70398_70399insL170382_70398dup,F8,"
+                ; 
+              ",N/A
+VCV000010104,N/A,N/A,N/A,N/A
+N/A,NC_000023.11:g.(154999601_155022409)del,F8,"
+                ; 
+              ",N/A
+VCV000010120,N/A,N/A,N/A,N/A
+N/A,NC_000023.11:g.139530710G>C,F9,"
+                ; 
+              ",N/A
+VCV000010653,N/A,N/A,N/A,N/A
+N/A,NM_020061.6(OPN1LW):c.538= (p.Ala180=),OPN1LW,"
+                ; 
+              ",N/A
+VCV000010504,N/A,N/A,N/A,N/A
+N/A,NM_000292.3(PHKA2):c.3327_3332dup (p.Arg1111_Glu1112insThrArg),PHKA2,"
+                ; 
+              ",N/A
+VCV000010540,N/A,N/A,N/A,N/A
+N/A,NC_000023.11:g.139530716T>A,F9,"
+                ; 
+              ",N/A
+VCV000010558,N/A,N/A,N/A,N/A
+N/A,m.2991T>C,"MTRNR2, MT-RNR2","
+                ; 
+              ",N/A
+VCV000009626,N/A,N/A,N/A,N/A
+N/A,"USP9Y, DEL",USP9Y,"
+                ; 
+              ",N/A
+VCV000009758,N/A,N/A,N/A,N/A
+N/A,"GRCh38/hg38 Xq22.2(chrX:106032435-106038727)x2,3","SERPINA7, TBG","
+                ; 
+              ",N/A
+VCV000009793,N/A,N/A,N/A,N/A
+N/A,NM_002641.4(PIGA):c.1188+2del,PIGA,"
+                ; 
+              ",N/A
+VCV000009957,N/A,N/A,N/A,N/A
+N/A,NM_001169122.2(AFF2):c.-460GCC[6_25],"AFF2, FRAXE","
+                ; 
+              ",N/A
+VCV000010526,N/A,N/A,N/A,N/A
+N/A,NM_000133.4(F9):c.-17del,F9,"
+                ; 
+              ",N/A
+VCV000010561,N/A,N/A,N/A,N/A
+N/A,NM_000133.4(F9):c.-22T>C,F9,"
+                ; 
+              ",N/A
+VCV000010644,N/A,N/A,N/A,N/A
+N/A,NC_000023.11:g.139530731A>T,F9,"
+                ; 
+              ",N/A
+VCV000010645,N/A,N/A,N/A,N/A
+N/A,NM_004001.4(FCGR2B):c.-386G>C,FCGR2B,"
+                ; 
+              ",N/A
+VCV000005466,N/A,N/A,N/A,N/A
+N/A,"KRIT1, 1-BP INS, 1374C",KRIT1,"
+                ; 
+              ",N/A
+VCV000005727,N/A,N/A,N/A,N/A
+N/A,"CITED2, 27-BP INS, NT534",CITED2,"
+                ; 
+              ",N/A
+VCV000006722,N/A,N/A,N/A,N/A
+N/A,NM_000039.3(APOA1):c.43+1G>T,"APOA1-AS, AP4M1, APOA1","
+                ; 
+              ",N/A
+VCV000007349,N/A,N/A,N/A,N/A
+N/A,NM_003190.5(TAPBP):c.469+3326_1336-732del,TAPBP,"
+                ; 
+              ",N/A
+VCV000007606,N/A,N/A,N/A,N/A
+N/A,NM_001025603.2(RFX5):c.151-1G>A,RFX5,"
+                ; 
+              ",N/A
+VCV000007647,N/A,N/A,N/A,N/A
+N/A,NM_005915.6(MCM6):c.1917+321T>G,MCM6,"
+                ; 
+              ",N/A
+VCV000007688,N/A,N/A,N/A,N/A
+N/A,NM_000452.3(SLC10A2):c.584_585+1inv,SLC10A2,"
+                ; 
+              ",N/A
+VCV000008242,N/A,N/A,N/A,N/A
+N/A,NM_000256.3(MYBPC3):c.2309-26A>G,MYBPC3,"
+                ; 
+              ",N/A
+VCV000008610,N/A,N/A,N/A,N/A
+N/A,NM_001122764.3(PPOX):c.657_658insAAGGCCAGCGCC (p.Ala219_Leu220insLysAlaSerAla),PPOX,"
+                ; 
+              ",N/A
+VCV000008701,N/A,N/A,N/A,N/A
+N/A,NM_002711.4(PPP1R3A):c.*460_*465delinsATTTAACACTG,"PPP1R3A, PPP1R3","
+                ; 
+              ",N/A
+VCV000008708,N/A,N/A,N/A,N/A
+SCV000030054,NM_005018.3(PDCD1):c.627+189G>C,PDCD1,"
+                ; 
+              ",N/A
+VCV000009251,N/A,N/A,N/A,N/A
+N/A,NM_000354.5(SERPINA7):c.623-2A>G,"SERPINA7, TBG","
+                ; 
+              ",N/A
+VCV000009796,N/A,N/A,N/A,N/A
+N/A,NM_001320752.2(STS):c.1241+1G>T,STS,"
+                ; 
+              ",N/A
+VCV000010557,N/A,N/A,N/A,N/A
+N/A,NM_139058.3(ARX):c.1449-816_*460del,ARX,"
+                ; 
+              ",N/A
+VCV000011189,N/A,N/A,N/A,N/A
+N/A,"DMD, EX45-47DEL",DMD,"
+                ; 
+              ",N/A
+VCV000011291,N/A,N/A,N/A,N/A
+N/A,"BTK, ALA-ASP, 1952C-A",BTK,"
+                ; 
+              ",N/A
+VCV000011350,N/A,N/A,N/A,N/A
+N/A,NG_009159.1:g.(?_270821)_(382671_?)del,THRB,"
+                ; 
+              ",N/A
+VCV000012538,N/A,N/A,N/A,N/A
+N/A,"DMD, PROMOTER DEL",DMD,"
+                ; 
+              ",N/A
+VCV000011208,N/A,N/A,N/A,N/A
+N/A,NM_001109878.2(TBX22):c.584_586dup (p.Ser195_Phe196insCys),TBX22,"
+                ; 
+              ",N/A
+VCV000011335,N/A,N/A,N/A,N/A
+N/A,NC_000012.12:g.88934558T>C,KITLG,"
+                ; 
+              ",N/A
+VCV000012811,N/A,N/A,N/A,N/A
+N/A,"SPTB, BETA-IV DOMAIN",SPTB,"
+                ; 
+              ",N/A
+VCV000012829,N/A,N/A,N/A,N/A
+N/A,NM_001109878.2(TBX22):c.863+1G>C,TBX22,"
+                ; 
+              ",N/A
+VCV000011328,N/A,N/A,N/A,N/A
+N/A,NM_001159699.2(FHL1):c.889T>G (p.Ter297Glu),FHL1,"
+                ; 
+              ",N/A
+VCV000011556,N/A,N/A,N/A,N/A
+N/A,NM_000489.6(ATRX):c.7201-2A>G,ATRX,"
+                ; 
+              ",N/A
+VCV000011737,N/A,N/A,N/A,N/A
+N/A,NM_000489.6(ATRX):c.20+1G>A,"ATRX, LOC130068458","
+                ; 
+              ",N/A
+VCV000011740,N/A,N/A,N/A,N/A
+N/A,NG_007511.1:g.6141_16535del,FUT2,"
+                ; 
+              ",N/A
+VCV000012947,N/A,N/A,N/A,N/A
+N/A,NM_001110556.2(FLNA):c.4904_4912del (p.Arg1635_Val1637del),FLNA,"
+                ; 
+              ",N/A
+VCV000011762,N/A,N/A,N/A,N/A
+N/A,"TP53, 11-BP DEL/5-BP INS",TP53,"
+                ; 
+              ",N/A
+VCV000012381,N/A,N/A,N/A,N/A
+N/A,"C7, 11-BP DEL, NT631",C7,"
+                ; 
+              ",N/A
+VCV000012112,N/A,N/A,N/A,N/A
+N/A,"C7, EX7-8DEL",C7,"
+                ; 
+              ",N/A
+VCV000012107,N/A,N/A,N/A,N/A
+N/A,"PDGFB, PDGFB/COL1A1 FUSION",PDGFB,"
+                ; 
+              ",N/A
+VCV000012599,N/A,N/A,N/A,N/A
+N/A,NM_000313.4(PROS1):c.2031A>T (p.Ter677Tyr),PROS1,"
+                ; 
+              ",N/A
+VCV000013320,N/A,N/A,N/A,N/A
+N/A,NM_001355436.2(SPTB):c.6269+3G>T,SPTB,"
+                ; 
+              ",N/A
+VCV000012832,N/A,N/A,N/A,N/A
+N/A,"TP53, 1-BP DEL, CODON 257",TP53,"
+                ; 
+              ",N/A
+VCV000012373,N/A,N/A,N/A,N/A
+N/A,L29S,TNF,"
+                ; 
+              ",N/A
+VCV000012385,N/A,N/A,N/A,N/A
+N/A,NM_002734.5(PRKAR1A):c.892-1G>A,PRKAR1A,"
+                ; 
+              ",N/A
+VCV000012673,N/A,N/A,N/A,N/A
+N/A,NG_008332.2:g.48605_58661del,ITGB3,"
+                ; 
+              ",N/A
+VCV000013563,N/A,N/A,N/A,N/A
+N/A,"PROS1, IVS10DS, G-A, +5",PROS1,"
+                ; 
+              ",N/A
+VCV000013319,N/A,N/A,N/A,N/A
+N/A,"PRKAR1A, 16-BP DEL",PRKAR1A,"
+                ; 
+              ",N/A
+VCV000012671,N/A,N/A,N/A,N/A
+N/A,NM_004959.5(NR5A1):c.682CTGCAGCTG[1] (p.228LQL[1]),NR5A1,"
+                ; 
+              ",N/A
+VCV000012808,N/A,N/A,N/A,N/A
+N/A,NM_003126.4(SPTA1):c.2465-1G>A,SPTA1,"
+                ; 
+              ",N/A
+VCV000012860,N/A,N/A,N/A,N/A
+N/A,"SPTB, BETA-IV DOMAIN",SPTB,"
+                ; 
+              ",N/A
+VCV000012830,N/A,N/A,N/A,N/A
+N/A,NM_198965.2(PTHLH):c.534A>G (p.Ter178Trp),PTHLH,"
+                ; 
+              ",N/A
+VCV000013740,N/A,N/A,N/A,N/A
+N/A,NM_000324.3(RHAG):c.946-1G>A,RHAG,"
+                ; 
+              ",N/A
+VCV000013062,N/A,N/A,N/A,N/A
+N/A,NC_000020.11:g.45919554C>T,PLTP,"
+                ; 
+              ",N/A
+VCV000013634,N/A,N/A,N/A,N/A
+N/A,"GLI2, 1-BP DEL, NT2274",GLI2,"
+                ; 
+              ",N/A
+VCV000013834,N/A,N/A,N/A,N/A
+N/A,PHB:c.*729C>T,"PHB, PHB1","
+                ; 
+              ",N/A
+VCV000013393,N/A,N/A,N/A,N/A
+N/A,NM_000324.3(RHAG):c.1067+1G>A,RHAG,"
+                ; 
+              ",N/A
+VCV000013064,N/A,N/A,N/A,N/A
+N/A,"SFTPB, 1-BP DEL, 457C",SFTPB,"
+                ; 
+              ",N/A
+VCV000013203,N/A,N/A,N/A,N/A
+N/A,NM_021076.4(NEFH):c.2015CAGAAGCAAAGTCCCCTGAGAAGGCCAAGTCCCCAGTGAAGG[1] (p.672AEAKSPEKAKSPVK[1]),NEFH,"
+                ; 
+              ",N/A
+VCV000014035,N/A,N/A,N/A,N/A
+N/A,NC_000005.10:g.(159317671_159317673)_(159322312_159322314)del,IL12B,"
+                ; 
+              ",N/A
+VCV000014053,N/A,N/A,N/A,N/A
+N/A,NM_000212.3(ITGB3):c.165+1G>T,ITGB3,"
+                ; 
+              ",N/A
+VCV000013560,N/A,N/A,N/A,N/A
+N/A,NM_005912.3(MC4R):c.265_279del (p.Ala89_Val93del),MC4R,"
+                ; 
+              ",N/A
+VCV000014335,N/A,N/A,N/A,N/A
+N/A,NM_000301.5(PLG):c.2125+1del,PLG,"
+                ; 
+              ",N/A
+VCV000013582,N/A,N/A,N/A,N/A
+N/A,NM_000530.8(MPZ):c.646-7_647delinsGCAGGAGAG,MPZ,"
+                ; 
+              ",N/A
+VCV000014171,N/A,N/A,N/A,N/A
+N/A,NM_004448.4(ERBB2):c.2328_2336dup (p.Val777_Ser779dup),ERBB2,"
+                ; 
+              ",N/A
+VCV000013876,N/A,N/A,N/A,N/A
+N/A,NM_000233.4(LHCGR):c.866+1515_948-2168del,"STON1-GTF2A1L, LHCGR","
+                ; 
+              ",N/A
+VCV000014404,N/A,N/A,N/A,N/A
+N/A,NM_005373.3(MPL):c.1566-1G>T,MPL,"
+                ; 
+              ",N/A
+VCV000014160,N/A,N/A,N/A,N/A
+N/A,"MC4R, 2-BP INS, 279GT",MC4R,"
+                ; 
+              ",N/A
+VCV000014327,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.5254895G>T,"HBG2, LOC106099065","
+                ; 
+              ",N/A
+VCV000015001,N/A,N/A,N/A,N/A
+N/A,"PAX2, 6-BP DEL",PAX2,"
+                ; 
+              ",N/A
+VCV000013798,N/A,N/A,N/A,N/A
+N/A,NC_000019.10:g.(?_7112255)_(7249328_?)del,"INSR, LOC130063349, LOC130063351, LOC130063350, LOC129391047, LOC129391048, LOC130063348","
+                ; 
+              ",N/A
+VCV000014706,N/A,N/A,N/A,N/A
+N/A,NM_000619.2(IFNG):c.115-484_115-457CA[12],IFNG,"
+                ; 
+              ",N/A
+VCV000014722,N/A,N/A,N/A,N/A
+N/A,NM_000619.3(IFNG):c.115-485T>A,IFNG,"
+                ; 
+              ",N/A
+VCV000014723,N/A,N/A,N/A,N/A
+N/A,"HBB, 15-BP INS",HBB,"
+                ; 
+              ",N/A
+VCV000015242,N/A,N/A,N/A,N/A
+SCV000055369,NM_020975.6(RET):c.1892_1903dup (p.Cys634_Arg635insHisGluLeuCys),RET,"
+                ; 
+              ",N/A
+VCV000013930,N/A,N/A,N/A,N/A
+N/A,NM_000518.5(HBB):c.54_59del (p.Lys18_Val19del),"HBB, LOC106099062, LOC107133510","
+                ; 
+              ",N/A
+VCV000015253,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.5226955_5234367dup,"HBB, LOC106099062, LOC107133510","
+                ; 
+              ",N/A
+VCV000015269,N/A,N/A,N/A,N/A
+N/A,NM_000518.5(HBB):c.425_433del (p.Leu142_Lys145delinsGln),"HBB, LOC107133510, LOC110006319","
+                ; 
+              ",N/A
+VCV000015478,N/A,N/A,N/A,N/A
+N/A,NM_000421.5(KRT10):c.1374-2A>G,"KRT10, KRT10-AS1","
+                ; 
+              ",N/A
+VCV000014581,N/A,N/A,N/A,N/A
+N/A,NM_000208.4(INSR):c.1124-2A>G,INSR,"
+                ; 
+              ",N/A
+VCV000014712,N/A,N/A,N/A,N/A
+N/A,NM_005534.4(IFNGR2):c.663_689del (p.Phe224_Ile232del),IFNGR2,"
+                ; 
+              ",N/A
+VCV000014728,N/A,N/A,N/A,N/A
+N/A,"HBG1, 4-BP DEL, -222 TO -225, PROMOTER",HBG1,"
+                ; 
+              ",N/A
+VCV000015038,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.5250015G>A,"HBG1, LOC106099064","
+                ; 
+              ",N/A
+VCV000015040,N/A,N/A,N/A,N/A
+N/A,chr11:g.(LOH11A_HBB)del,HBB,"
+                ; 
+              ",N/A
+VCV000015594,N/A,N/A,N/A,N/A
+N/A,"MC4R, 1-BP INS, 112A",MC4R,"
+                ; 
+              ",N/A
+VCV000014325,N/A,N/A,N/A,N/A
+N/A,F83S,HBB,"
+                ; 
+              ",N/A
+VCV000015272,N/A,N/A,N/A,N/A
+N/A,NM_000518.5(HBB):c.131_139del (p.Glu44_Phe46del),"HBB, LOC106099062, LOC107133510","
+                ; 
+              ",N/A
+VCV000015288,N/A,N/A,N/A,N/A
+N/A,"HBB, HBB/HBD FUSION",HBB,"
+                ; 
+              ",N/A
+VCV000015305,N/A,N/A,N/A,N/A
+N/A,Hb Kenya,HBG1,"
+                ; 
+              ",N/A
+VCV000015029,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.5249974C>T,"HBG1, LOC106099064","
+                ; 
+              ",N/A
+VCV000015030,N/A,N/A,N/A,N/A
+N/A,NM_000518.4(HBB):c.-7305_92+16del,"HBB, LOC106099062, LOC106099063, HBD, LOC107133510","
+                ; 
+              ",N/A
+VCV000015063,N/A,N/A,N/A,N/A
+N/A,"HBB, HBB/HBD FUSION, HBD137DEL",HBB,"
+                ; 
+              ",N/A
+VCV000015248,N/A,N/A,N/A,N/A
+N/A,"GNAS, IVS3AS, A-G, -12",GNAS,"
+                ; 
+              ",N/A
+VCV000015930,N/A,N/A,N/A,N/A
+N/A,"GNAS, 36-BP DUP, ALA138ASP, PRO161ARG",GNAS,"
+                ; 
+              ",N/A
+VCV000015955,N/A,N/A,N/A,N/A
+N/A,NG_012651.1:g.=,HP,"
+                ; 
+              ",N/A
+VCV000015899,N/A,N/A,N/A,N/A
+N/A,NC_000016.10:g.(?_72054504)_(?_72076977)del,"HP, HPR","
+                ; 
+              ",N/A
+VCV000015900,N/A,N/A,N/A,N/A
+N/A,NM_000518.5(HBB):c.170_181del (p.Gly57_Lys60del),"HBB, LOC106099062, LOC107133510","
+                ; 
+              ",N/A
+VCV000015374,N/A,N/A,N/A,N/A
+N/A,NM_000176.3(NR3C1):c.1891_1892+2del,NR3C1,"
+                ; 
+              ",N/A
+VCV000016148,N/A,N/A,N/A,N/A
+N/A,NM_021870.3(FGG):c.667-320A>T,FGG,"
+                ; 
+              ",N/A
+VCV000016380,N/A,N/A,N/A,N/A
+N/A,NM_023110.3(FGFR1):c.936G>A (p.Lys312=),FGFR1,"
+                ; 
+              ",N/A
+VCV000016284,N/A,N/A,N/A,N/A
+N/A,NM_001377295.2(GNAT2):c.461+24G>A,GNAT2,"
+                ; 
+              ",N/A
+VCV000015925,N/A,N/A,N/A,N/A
+N/A,NM_000516.7(GNAS):c.1097_1108dup (p.Thr369_Glu370insAlaValAspThr),GNAS,"
+                ; 
+              ",N/A
+VCV000015958,N/A,N/A,N/A,N/A
+N/A,HLA-B*15:02,HLA-B,"
+                ; 
+              ",N/A
+VCV000014909,N/A,N/A,N/A,N/A
+N/A,HLA–B*58:01,HLA-B,"
+                ; 
+              ",N/A
+VCV000014911,N/A,N/A,N/A,N/A
+N/A,NM_021870.3(FGG):c.307+5G>A,FGG,"
+                ; 
+              ",N/A
+VCV000016377,N/A,N/A,N/A,N/A
+N/A,NM_005141.5(FGB):c.958+13C>T,FGB,"
+                ; 
+              ",N/A
+VCV000016392,N/A,N/A,N/A,N/A
+N/A,NM_005141.5(FGB):c.1244+1G>T,FGB,"
+                ; 
+              ",N/A
+VCV000016393,N/A,N/A,N/A,N/A
+N/A,NM_000138.5(FBN1):c.3965-2A>T,FBN1,"
+                ; 
+              ",N/A
+VCV000016441,N/A,N/A,N/A,N/A
+N/A,"HBB, LYS95ASP",HBB,"
+                ; 
+              ",N/A
+VCV000015277,N/A,N/A,N/A,N/A
+N/A,"DRD5, (CA)n MARKER",DRD5,"
+                ; 
+              ",N/A
+VCV000016766,N/A,N/A,N/A,N/A
+N/A,NM_005228.5(EGFR):c.2239_2251delinsC (p.Leu747_Thr751delinsPro),EGFR,"
+                ; 
+              ",N/A
+VCV000016610,N/A,N/A,N/A,N/A
+N/A,NM_203342.2(EPB41):c.-159_159del,EPB41,"
+                ; 
+              ",N/A
+VCV000016711,N/A,N/A,N/A,N/A
+SCV000038472,NM_004437.3(EPB41):c.1219_1587del,EPB41,"
+                ; 
+              ",N/A
+VCV000016712,N/A,N/A,N/A,N/A
+N/A,"HBB, LYS95GLX",HBB,"
+                ; 
+              ",N/A
+VCV000015279,N/A,N/A,N/A,N/A
+N/A,"HBB, HBB/HBD FUSION",HBB,"
+                ; 
+              ",N/A
+VCV000015304,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.634826_636065=,DRD4,"
+                ; 
+              ",N/A
+VCV000016769,N/A,N/A,N/A,N/A
+N/A,"CYP11B2, IVS2 CONVERSION",CYP11B2,"
+                ; 
+              ",N/A
+VCV000016884,N/A,N/A,N/A,N/A
+N/A,NM_000518.5(HBB):c.293_295del (p.His98_Val99delinsLeu),"HBB, LOC106099062, LOC107133510","
+                ; 
+              ",N/A
+VCV000015479,N/A,N/A,N/A,N/A
+N/A,NM_001376256.1(CRYM):c.945A>T (p.Ter315Tyr),CRYM,"
+                ; 
+              ",N/A
+VCV000016934,N/A,N/A,N/A,N/A
+N/A,CYP2A6*4A,CYP2A6,"
+                ; 
+              ",N/A
+VCV000016970,N/A,N/A,N/A,N/A
+N/A,NM_001848.3(COL6A1):c.805-572_903+5delinsTCCCTCCCCATTTCC,COL6A1,"
+                ; 
+              ",N/A
+VCV000017175,N/A,N/A,N/A,N/A
+N/A,"MMP8, HAPLOTYPE, TGG",MMP8,"
+                ; 
+              ",N/A
+VCV000017113,N/A,N/A,N/A,N/A
+N/A,NM_001849.4(COL6A2):c.1117-10A>G,COL6A2,"
+                ; 
+              ",N/A
+VCV000017161,N/A,N/A,N/A,N/A
+N/A,NM_001849.4(COL6A2):c.801+631_882del,COL6A2,"
+                ; 
+              ",N/A
+VCV000017162,N/A,N/A,N/A,N/A
+N/A,NM_000089.4(COL1A2):c.432+3_432+13del,COL1A2,"
+                ; 
+              ",N/A
+VCV000017255,N/A,N/A,N/A,N/A
+N/A,NC_000007.13:g.94035075_94047591dup,COL1A2,"
+                ; 
+              ",N/A
+VCV000017271,N/A,N/A,N/A,N/A
+SCV001370341,NM_000494.4(COL17A1):c.2336-1G>T,COL17A1,"
+                ; 
+              ",N/A
+VCV000017652,N/A,N/A,N/A,N/A
+N/A,NC_000001.11:g.(25258851_25268086)_(25329003_25338415)del,"RSRP1, RHD, LOC133206433, TMEM50A, LOC129929767, LOC122056798, LOC133206434","
+                ; 
+              ",N/A
+VCV000017711,N/A,N/A,N/A,N/A
+N/A,NG_023030.1:g.4769GT[30_?],HMOX1,"
+                ; 
+              ",N/A
+VCV000015897,N/A,N/A,N/A,N/A
+SCV000037631,NM_000583.4(GC):c.1035-67TAAA[6_10],GC,"
+                ; 
+              ",N/A
+VCV000015988,N/A,N/A,N/A,N/A
+N/A,NM_000039.3(APOA1):c.43+1G>C,"APOA1-AS, APOA1","
+                ; 
+              ",N/A
+VCV000017930,N/A,N/A,N/A,N/A
+N/A,NM_001783.4(CD79A):c.380-2A>G,CD79A,"
+                ; 
+              ",N/A
+VCV000017706,N/A,N/A,N/A,N/A
+N/A,NM_015865.7(SLC14A1):c.-21-131_341+571del,SLC14A1,"
+                ; 
+              ",N/A
+VCV000017721,N/A,N/A,N/A,N/A
+N/A,NM_000420.3(KEL):c.223+1G>C,KEL,"
+                ; 
+              ",N/A
+VCV000017723,N/A,N/A,N/A,N/A
+N/A,NM_006172.4(NPPA):c.456_*1del (p.Ter152TrpextTer?),"NPPA, NPPA-AS1","
+                ; 
+              ",N/A
+VCV000017788,N/A,N/A,N/A,N/A
+N/A,NM_000041.4(APOE):c.237-2A>G,APOE,"
+                ; 
+              ",N/A
+VCV000017852,N/A,N/A,N/A,N/A
+N/A,NC_000011.10:g.116830247_116836307inv,"APOC3, APOA1-AS, APOA1","
+                ; 
+              ",N/A
+VCV000017918,N/A,N/A,N/A,N/A
+N/A,NG_016269.1:g.(5157_17324)_(17451_20188)del,AK2,"
+                ; 
+              ",N/A
+VCV000018259,N/A,N/A,N/A,N/A
+N/A,FIBRINOGEN OSLO 3,FGG,"
+                ; 
+              ",N/A
+VCV000016372,N/A,N/A,N/A,N/A
+N/A,NC_000003.10:g.(71109689_?)_(?_71508061)del,FOXP1,"
+                ; 
+              ",N/A
+VCV000018427,N/A,N/A,N/A,N/A
+N/A,FIBRINOGEN LIMA,FGA,"
+                ; 
+              ",N/A
+VCV000016406,N/A,N/A,N/A,N/A
+N/A,NC_000021.9:g.(25431701_?)_(?_26466216)dup,"LOC126653331, LOC130066494, LOC130066481, LOC130066486, LOC130066477, MIR155, LOC130066479, LOC130066484, LOC130066487, MIR155HG, LOC130066492, LOC130066478, APP, LOC130066482, LOC130066485, JAM2, LOC130066497, LOC126653330, ATP5PF, MRPL39, LOC130066480, GABPA, LOC130066495, LOC126653333, LOC130066498, LOC130066500, APP-DT, LINC00515, LOC130066483, LOC105372753, LINC00158, LOC126653329, CYYR1-AS1, LOC130066496, LOC130066490, LOC130066489, LOC130066493, LOC130066491, LOC130066501, LOC130066488, CYYR1, LOC126653332, LOC130066499","
+                ; 
+              ",N/A
+VCV000018104,N/A,N/A,N/A,N/A
+N/A,NM_000477.7(ALB):c.1785+1G>C,ALB,"
+                ; 
+              ",N/A
+VCV000018222,N/A,N/A,N/A,N/A
+SCV000038474,NM_004437.3(EPB41):c.1219_1458del,EPB41,"
+                ; 
+              ",N/A
+VCV000016713,N/A,N/A,N/A,N/A
+SCV000038531,"DRD5, (CT/GT/GA)n",DRD5,"
+                ; 
+              ",N/A
+VCV000016765,N/A,N/A,N/A,N/A
+N/A,NM_000477.7(ALB):c.79+1G>A,ALB,"
+                ; 
+              ",N/A
+VCV000018240,N/A,N/A,N/A,N/A
+N/A,NC_000001.11:g.206775286T>C,"IL10, IL19","
+                ; 
+              ",N/A
+VCV000016874,N/A,N/A,N/A,N/A
+N/A,NM_000498.3(CYP11B2):c.-344T=,"LOC110673971, CYP11B2","
+                ; 
+              ",N/A
+VCV000016883,N/A,N/A,N/A,N/A
+N/A,NM_001849.4(COL6A2):c.1771-1G>A,COL6A2,"
+                ; 
+              ",N/A
+VCV000017158,N/A,N/A,N/A,N/A
+N/A,NM_000088.3(COL1A1):c.-1782delT,COL1A1,"
+                ; 
+              ",N/A
+VCV000017342,N/A,N/A,N/A,N/A
+N/A,NM_001844.5(COL2A1):c.3489+163_3597+2del,COL2A1,"
+                ; 
+              ",N/A
+VCV000017351,N/A,N/A,N/A,N/A
+N/A,NM_001844.5(COL2A1):c.3886+2T>C,COL2A1,"
+                ; 
+              ",N/A
+VCV000017399,N/A,N/A,N/A,N/A
+N/A,"HLA-DRB1, DRB1*1501",HLA-DRB1,"
+                ; 
+              ",N/A
+VCV000029757,N/A,N/A,N/A,N/A
+N/A,NM_015865.7(SLC14A1):c.663+1G>T,SLC14A1,"
+                ; 
+              ",N/A
+VCV000017719,N/A,N/A,N/A,N/A
+N/A,NM_002661.5(PLCG2):c.1935-521_2055-1483del,PLCG2,"
+                ; 
+              ",N/A
+VCV000030050,N/A,N/A,N/A,N/A
+N/A,NM_002661.5(PLCG2):c.1935-715_2055-2763del,PLCG2,"
+                ; 
+              ",N/A
+VCV000030052,N/A,N/A,N/A,N/A
+N/A,NM_001818.5(AKR1C4):c.85-106G>T,AKR1C4,"
+                ; 
+              ",N/A
+VCV000030068,N/A,N/A,N/A,N/A
+N/A,"MAK, 353-BP ALU INS, EX9",MAK,"
+                ; 
+              ",N/A
+VCV000029780,N/A,N/A,N/A,N/A
+N/A,"PROS1, 1-BP INS, 146A",PROS1,"
+                ; 
+              ",N/A
+VCV000029847,N/A,N/A,N/A,N/A
+N/A,"PROS1, ARG410TER",PROS1,"
+                ; 
+              ",N/A
+VCV000029848,N/A,N/A,N/A,N/A
+N/A,NM_003041.4(SLC5A2):c.127-16C>A,SLC5A2,"
+                ; 
+              ",N/A
+VCV000029880,N/A,N/A,N/A,N/A
+N/A,NM_001242758.1(HLA-A):c.*66A>T,HLA-A,"
+                ; 
+              ",N/A
+VCV000029755,N/A,N/A,N/A,N/A
+N/A,NM_000041.4(APOE):c.415_435dup (p.Glu139_Gly145dup),APOE,"
+                ; 
+              ",N/A
+VCV000017853,N/A,N/A,N/A,N/A
+N/A,NM_021252.5(RAB18):c.619T>C (p.Ter207Gln),RAB18,"
+                ; 
+              ",N/A
+VCV000030250,N/A,N/A,N/A,N/A
+N/A,NM_139058.3(ARX):c.435_461dup (p.Ala147_Ala155dup),"ARX, LOC109610631","
+                ; 
+              ",N/A
+VCV000029963,N/A,N/A,N/A,N/A

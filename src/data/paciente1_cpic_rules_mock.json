@@ -1,0 +1,36 @@
+{
+  "CYP2D6": {
+    "*1/*1": {
+      "activity_score": 2.0,
+      "phenotype": "Normal Metabolizer",
+      "phenotype_pt": "Metabolizador Normal",
+      "recomendacao_clinica_pt": "Atividade enzimática normal. Utilizar doses padrão conforme bula para substratos de CYP2D6."
+    },
+    "*1/*4": {
+      "activity_score": 1.0,
+      "phenotype": "Intermediate Metabolizer",
+      "phenotype_pt": "Metabolizador Intermediário",
+      "recomendacao_clinica_pt": "Redução moderada na atividade enzimática. Considere monitoramento terapêutico ou ajuste de dose para substratos sensíveis (ex: antidepressivos tricíclicos, tamoxifeno) conforme diretrizes CPIC."
+    },
+    "*4/*4": {
+      "activity_score": 0.0,
+      "phenotype": "Poor Metabolizer",
+      "phenotype_pt": "Metabolizador Lento",
+      "recomendacao_clinica_pt": "Ausência completa de atividade funcional de CYP2D6. Evitar o uso de fármacos metabolizados predominantemente por esta via ou ajustar drasticamente a dose com base em monitoramento sérico."
+    }
+  },
+  "CYP2C19": {
+    "*1/*2": {
+      "phenotype": "Intermediate Metabolizer",
+      "phenotype_pt": "Metabolizador Intermediário",
+      "recomendacao_clinica_pt": "Para inibidores de P2Y12 (como clopidogrel), considerar agentes alternativos (como prasugrel ou ticagrelor) devido à redução na conversão ao metabólito ativo."
+    }
+  },
+  "VKORC1": {
+    "-1639G>A": {
+      "phenotype": "Normal Sensitivity",
+      "phenotype_pt": "Sensibilidade Normal / Intermediária",
+      "recomendacao_clinica_pt": "Sensibilidade moderada a varfarina. Iniciar com faixa de dose padrão e monitorar RNI estritamente."
+    }
+  }
+}

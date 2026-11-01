@@ -1,0 +1,24 @@
+{
+  "gene": "F5",
+  "haplotypes": {
+    "rs6025 Factor V Leiden (T)": "Factor V Leiden positive",
+    "rs6025 reference (C)": "Factor V Leiden negative"
+  },
+  "activityValues": {},
+  "diplotypes": [],
+  "namedAlleles": [
+    {
+      "name": "rs6025 Factor V Leiden (T)",
+      "activityValue": null,
+      "functionValue": "Factor V Leiden positive",
+      "lookupKey": "Factor V Leiden positive"
+    },
+    {
+      "name": "rs6025 reference (C)",
+      "activityValue": null,
+      "functionValue": "Factor V Leiden negative",
+      "lookupKey": "Factor V Leiden negative"
+    }
+  ],
+  "version": "2026-07-13-11-40"
+}
