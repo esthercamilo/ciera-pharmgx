@@ -76,3 +76,15 @@ Para suportar alto volume de dados, a arquitetura evoluirá para um **script orq
 1. Varrer a pasta `data/input/` automaticamente.
 2. Identificar e parear todos os arquivos VCFs e JSONs de pacientes.
 3. Executar o pipeline de forma automatizada (utilizando paralelismo ou filas) iterando por toda a base de dados em uma única chamada.
+
+## Comando para restore do banco
+
+```
+psql "postgresql://pregenescan:password@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;" && psql "postgresql://pregenescan:2Tqm9XnOtk8QMWI2oljq7fnp3jggIvLZ@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -f ciera_pgx_db_render_2026-11-01.dump
+```
+
+## Comando para backup do banco
+
+```
+pg_dump -h dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com -U pregenescan ciera_pgx_db > ciera_pgx_db_render_2026-11-01b.dump
+```
