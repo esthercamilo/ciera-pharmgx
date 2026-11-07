@@ -61,8 +61,7 @@ Para rodar o pipeline para uma amostra específica via linha de comando, utiliza
 ```bash
 $ sudo docker compose run --rm pharmacogenomics-pipeline python src/main.py \
     --vcf data/input/amostra.vcf \
-    --patient data/input/patient.json \
-    -o data/output/resultado.json
+    --patient data/input/patient.json
 ```
 
 O resultado processado estará disponível no host em `data/output/resultado.json`.
@@ -80,7 +79,7 @@ Para suportar alto volume de dados, a arquitetura evoluirá para um **script orq
 ## Comando para restore do banco
 
 ```
-psql "postgresql://pregenescan:password@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;" && psql "postgresql://pregenescan:2Tqm9XnOtk8QMWI2oljq7fnp3jggIvLZ@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -f ciera_pgx_db_render_2026-11-01.dump
+psql "postgresql://pregenescan:password@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;" && psql "postgresql://pregenescan:password@dpg-db9m7eom7kps73dtm8t0-a.ohio-postgres.render.com/ciera_pgx_db?sslmode=require" -f ciera_pgx_db_render_2026-11-01.dump
 ```
 
 ## Comando para backup do banco

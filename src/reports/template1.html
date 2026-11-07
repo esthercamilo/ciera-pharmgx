@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciera-PharmGX - Laudo Farmacogenômico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho Principal -->
+        <div class="header-title">
+            <div>
+                <h1>Laudo Farmacogenômico</h1>
+            </div>
+            <div class="logo-badge"><img width="100" src="logo_ciera.avif" alt="Logo Ciera"></div>
+        </div>
+
+        <!-- Dados Clínicos e Administrativos -->
+        <div class="grid-two-col">
+            <div class="card">
+                <h3>Identificação do Paciente</h3>
+                <p><strong>Nome:</strong> {{ patient.name }}</p>
+                <p><strong>ID / Código:</strong> {{ patient.id }}</p>
+                <p><strong>Idade:</strong> {{ patient.age }} anos</p>
+                <p><strong>Gênero:</strong> {{ patient.gender }}</p>
+            </div>
+            <div class="card">
+                <h3>Informações da Solicitação</h3>
+                <p><strong>Médico Solicitante:</strong> {{ requester.doctor_name }}</p>
+                <p><strong>Especialidade:</strong> {{ requester.specialty }}</p>
+                <p><strong>Data de Coleta:</strong> {{ dates.collection_date }}</p>
+                <p><strong>Data de Emissão:</strong> {{ dates.issue_date }}</p>
+            </div>
+        </div>
+
+        <!-- Sumário de Impacto -->
+        <h2 class="section-title">1. Sumário de Impacto Farmacogenômico</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Medicamento</th>
+                    <th>Gene Afetado</th>
+                    <th>Impacto Clínico</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in summary_impact %}
+                <tr>
+                    <td><strong>{{ item.drug }}</strong></td>
+                    <td>{{ item.gene }}</td>
+                    <td>{{ item.impact }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Detalhamento por Medicamento e Gene -->
+        <h2 class="section-title">2. Detalhamento dos Achados e Recomendações</h2>
+        {% for detail in detailed_findings %}
+        <div class="detail-block">
+            <div class="detail-header">
+                <span>Medicamento: {{ detail.drug }}</span>
+                <span>Gene: {{ detail.gene }}</span>
+            </div>
+            <p><strong>Diplótipo:</strong> {{ detail.diplotype }}</p>
+            <p><strong>Fenótipo Interpretado:</strong> {{ detail.phenotype }}</p>
+
+            <div class="recommendation-box">
+                <strong>Recomendação Clínica (CPIC/DPWG):</strong><br>
+                {{ detail.recommendation }}
+            </div>
+        </div>
+        {% endfor %}
+
+        <!-- Metodologia -->
+        <h2 class="section-title">3. Metodologia Aplicada</h2>
+        <div class="text-section">
+            <p><strong>Sequenciamento de Nova Geração (NGS):</strong> O DNA do paciente foi extraído e submetido ao sequenciamento direcionado de alto rendimento para cobertura das regiões codificantes dos genes do painel farmacogenômico. O alinhamento e a chamada de variantes foram processados via pipeline bioinformático Ciera-PharmGX.</p>
+            <p><strong>Reação em Cadeia da Polimerase em Tempo Real (qPCR):</strong> As variantes estruturais e marcadores específicos dos genes <em>ACE</em> (polimorfismo de Inserção/Deleção no íntron 16) e <em>SLC6A4</em> (região polimórfica 5-HTTLPR no promotor) foram analisados quantitativamente via ensaios de qPCR com sondas específicas para determinação exata do diplótipo.</p>
+        </div>
+
+        <!-- Referências -->
+        <h2 class="section-title">4. Referências Bibliográficas</h2>
+        <div class="text-section">
+            <ul>
+                {% for ref in references %}
+                <li>{{ ref }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer-box">
+            <strong>AVISO LEGAL / DISCLAIMER:</strong> Este relatório farmacogenômico destina-se a apoiar as decisões médicas fornecendo informações relativas à variabilidade genética individual na resposta a medicamentos. Os resultados devem ser interpretados exclusivamente por um profissional de saúde qualificado, em conjunto com o quadro clínico completo, histórico do paciente e interações medicamentosas. Este laudo não substitui a consulta médica.
+        </div>
+
+        <!-- Assinatura do Responsável -->
+        <div class="signature-area">
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p><strong>{{ signature.name }}</strong></p>
+                <p>{{ signature.title }}</p>
+                <p>{{ signature.credentials }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

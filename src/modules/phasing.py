@@ -33,7 +33,8 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
-
+from src.utils.logger import get_logger
+import os
 
 # ---------------------------------------------------------------------------
 # Coordenadas GRCh38 (hg38)
@@ -690,6 +691,94 @@ class PharmacogeneticPhaser:
 
         return out_final
 
+logger = get_logger(__name__)
+
+
+def run_phasing_pipeline(vcf_in: str | Path, out_prefix: str | Path) -> Path:
+    """
+    Executa o faseamento genômico. Se a variável de ambiente MOCK=1 estiver ativa,
+    realiza apenas a troca simulada de '/' para '|' (modo leve para testes rápidos).
+    Caso contrário, executa o pipeline completo com Beagle e 1000 Genomes.
+    """
+    vcf_path = Path(vcf_in)
+    out_prefix_path = Path(out_prefix)
+    out_prefix_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Verifica se o modo mock/simples via variável de ambiente está ativado
+    is_mock = os.getenv("MOCK", "0") == "1"
+
+    if is_mock:
+        logger.warning(
+            "[MOCK ATIVO] Variável MOCK=1 detectada. Pulando o Beagle e realizando apenas a normalização de barras ('/' -> '|')...")
+
+        out_final = Path(str(out_prefix_path) + ".pharmacogenes_phased.vcf.gz")
+
+        # Leitura simples do VCF de entrada e reescrita trocando o separador de genótipo
+        import gzip
+        import shutil
+
+        temp_out = out_prefix_path.with_suffix(".mock_phased.vcf")
+        with open(vcf_path, "r", encoding="utf-8", errors="ignore") as fin, open(temp_out, "w",
+                                                                                 encoding="utf-8") as fout:
+            for line in fin:
+                if line.startswith("#"):
+                    fout.write(line)
+                    continue
+                parts = line.strip().split("\t")
+                if len(parts) >= 10:
+                    # Ajusta o formato do genótipo trocando '/' por '|' se presente
+                    fmt_cols = parts[8].split(":")
+                    if "GT" in fmt_cols:
+                        gt_idx = fmt_cols.index("GT")
+                        sample_vals = parts[9].split(":")
+                        gt_val = sample_vals[gt_idx]
+                        if "/" in gt_val:
+                            sample_vals[gt_idx] = gt_val.replace("/", "|")
+                            parts[9] = ":".join(sample_vals)
+                fout.write("\t".join(parts) + "\n")
+
+        # Compacta e indexa com bcftools
+        import subprocess
+        subprocess.run(["bcftools", "sort", "-Oz", "-o", str(out_final), str(temp_out)], check=True)
+        subprocess.run(["bcftools", "index", "-t", "-f", str(out_final)], check=True)
+        temp_out.unlink(missing_ok=True)
+
+        logger.info(f"[MOCK ATIVO] VCF pseudo-faseado gerado com sucesso: {out_final}")
+        return out_final
+
+    # --- Fluxo de Produção Real (Beagle + 1000G) ---
+    logger.info("Iniciando pipeline de faseamento real (Beagle 5.x)...")
+
+    ref_output_dir = "/media/esther/SAMSUNG/1000_genomes"
+    beagle_jar_path = "/home/esther/GitProjects/flexlab/backend/genomics/softwares/beagle.27Feb25.75f.jar"
+    maps_dir_path = "/home/esther/GitProjects/flexlab/backend/genomics/data/chr_in_chrom_field"
+
+    manager = ReferenceManager(
+        output_dir=ref_output_dir,
+        build="GRCh38",
+    )
+
+    references = {
+        "CYP2D6": manager.get_gene_reference("CYP2D6"),
+        "CYP2C19": manager.get_gene_reference("CYP2C19"),
+        "CYP2C9": manager.get_gene_reference("CYP2C9"),
+    }
+
+    phaser = PharmacogeneticPhaser(
+        beagle_jar=beagle_jar_path,
+        maps_dir=maps_dir_path,
+        regions_map=manager.gene_coords,
+        build="GRCh38",
+    )
+
+    phased_vcf = phaser.phase_sample(
+        vcf_in=vcf_path,
+        out_prefix=out_prefix_path,
+        ref_panels=references,
+    )
+
+    logger.info(f"Faseamento real concluído com sucesso. VCF gerado: {phased_vcf}")
+    return phased_vcf
 
 if __name__ == "__main__":
     manager = ReferenceManager(
